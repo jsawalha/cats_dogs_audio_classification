@@ -7,7 +7,7 @@ import python_speech_features as psf
 import matplotlib.pyplot as plt
 
 #Set up the paths for both training and testing dogs/cats
-path = r'/home/jeff/Documents/cats_dogs/'
+path = r'/home/jeff/Documents/cats_dogs_audio_signal_processing/cats_dogs/'
 
 train_cats = r'train/cat'
 train_dogs = r'train/dog'

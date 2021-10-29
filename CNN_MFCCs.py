@@ -20,13 +20,13 @@ warnings.filterwarnings('ignore')
 
 #Check the full file path of where these images are
 
-with Image.open(r'/home/jeff/Documents/cats_dogs/non_pad_MFCC_train/cat/cat_32.jpeg') as im:
+with Image.open(r'/home/jeff/Documents/cats_dogs_audio_signal_processing/cats_dogs/non_pad_MFCC_train/cat/cat_32.jpeg') as im:
     plt.imshow(im)
 
 
 #Set up top level paths
 
-path = r'/home/jeff/Documents/cats_dogs/non_pad_MFCC_train'
+path = r'/home/jeff/Documents/cats_dogs_audio_signal_processing/cats_dogs/non_pad_MFCC_train'
 
 img_names = []
 
